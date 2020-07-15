@@ -33,7 +33,7 @@ int simplify(int a,int b){
 		return 0;
 	}
 	else{
-		printf("%d / %d",a,b);
+		printf("Simplified version of fraction:%d / %d",a,b);
 	
 		return 1;
 	}
@@ -46,15 +46,15 @@ int main(){
 	printf("Enter the numerator and denominator of the fraction:\n");
 	scanf("%d%d",&c,&d);
 	
+	printf("Fraction:%d / %d\n",c,d);
+	
 	int result=simplify(c,d);
 	
 	if(result==0){
 		printf("\nThe simplest version of the series is itself.");
 	}
-	else{
-		printf("\nSimplified version of fraction.");
-	}
+	
 	
 
-	
+	return 0;
 }
