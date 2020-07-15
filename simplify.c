@@ -29,7 +29,6 @@ int simplify(int a,int b){
 	}
 	
 	if(count==0){
-		printf("%d / %d",a,b);
 		return 0;
 	}
 	else{
@@ -51,7 +50,7 @@ int main(){
 	int result=simplify(c,d);
 	
 	if(result==0){
-		printf("\nThe simplest version of the series is itself.");
+		printf("The simplest version of the series is itself.");
 	}
 	
 	
